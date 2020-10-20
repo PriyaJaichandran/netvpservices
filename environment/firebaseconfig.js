@@ -10,7 +10,7 @@ var db=firebase.database();
 var ref=db.ref("/userdetails");
 console.log("after return from firebase");
 ref.once("value", function(snapshot) {
-  var data = snapshot.val();   //Data is in JSON format.
+  var data = snapshot.val();   //Data is in JSON format. Now this comment added
   console.log(data);
 });
 module.exports=db;
