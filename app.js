@@ -5,6 +5,7 @@ var ref=db.ref("/userdetails");
 app.get("/userdetails", (req, res, next) => {
 
     console.log(ref);
+    console.log('test');
     //res.json(productdata)
     ref.once("value", function (snapshot) {
         var data = snapshot.val(); //Data is in JSON format.
