@@ -1,18 +1,27 @@
 {
   "name": "netvpservices",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
-    "start":"node app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "firebase": "^7.24.0",
-    "express":"*",
-    "body-parser":"*",
-    "bcrypt": "^0.8.5"
-  }
+    "bcrypt": "^0.8.5",
+    "body-parser": "*",
+    "express": "^4.17.1",
+    "firebase": "^7.24.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PriyaJaichandran/netvpservices.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PriyaJaichandran/netvpservices/issues"
+  },
+  "homepage": "https://github.com/PriyaJaichandran/netvpservices#readme",
+  "description": ""
 }
