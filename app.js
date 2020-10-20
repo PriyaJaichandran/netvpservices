@@ -12,6 +12,3 @@ app.get("/userdetails", (req, res, next) => {
         res.json(data);
     });
 })
-app.get("/productTest", (req, res, next) => {
-    res.json(['1', 'Chair', 'Home Decor', 'Wood', '1 pc', '3 kg', '56 x 71 x 82 cm'])
-})
